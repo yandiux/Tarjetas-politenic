@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aumentodecupo.css/aumento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="inicio"> 
+        <a  href="./index.html">Inicio</a>
+    </div>
+
+    <form class="credit-increase-form">
+        <h2>Aumento de Cupo</h2>
+        <div class="form-group">
+          <label for="motivo">Motivo de la Solicitud:</label>
+          <input type="text" id="motivo" name="motivo" placeholder="Ingrese el motivo de la solicitud">
+        </div>
+        <div class="form-group">
+          <label for="tipo-tarjeta">Tipo de Tarjeta:</label>
+          <select id="tipo-tarjeta" name="tipo-tarjeta">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="amex">American Express</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="razon">Razón:</label>
+          <textarea id="razon" name="razon" placeholder="Ingrese la razón"></textarea>
+        </div>
+        <button type="submit">Enviar Solicitud</button>
+    </form>
+    
+</body>
+</html>

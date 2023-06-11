@@ -1,0 +1,66 @@
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/gradient-purple-abstract-background_23-2149108575.jpg?w=740&t=st=1686434993~exp=1686435593~hmac=5eef81dfeb15d35939e6008dc042e0edf6cda1135edcfc25720bbfd16c62c9d0");
+    color: #ffffff;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.inicio {
+  color: inherit;
+  text-decoration: none;
+
+  text-align: center;
+}
+a {
+  color: aliceblue;
+}
+
+.credit-increase-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.credit-increase-form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .credit-increase-form {
+    max-width: 100%;
+  }
+}

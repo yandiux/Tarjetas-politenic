@@ -1,0 +1,278 @@
+/* Reset default margin and padding */
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/gradient-purple-abstract-background_23-2149108575.jpg?w=740&t=st=1686434993~exp=1686435593~hmac=5eef81dfeb15d35939e6008dc042e0edf6cda1135edcfc25720bbfd16c62c9d0");
+  color: #ffffff;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #807fbb;
+  overflow: hidden;
+}
+
+/* Style the navigation links */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 10px;
+  margin-left: 50px;
+}
+
+/* Change the color of the navigation links on hover */
+.navbar a:hover {
+  background-color: rgb(128, 128, 128);
+  color: black;
+}
+
+/* Add a responsive navigation menu (hamburger icon) */
+.navbar .icon {
+  display: none;
+}
+
+/* Style the navigation menu icon for small screens */
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* Responsive navigation menu */
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Intro */
+
+@media (min-width: 320px) and (max-width: 576px) {
+  a {
+    text-decoration: none;
+
+    color: inherit;
+  }
+  .justified-text {
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .intro {
+    width: 100%;
+    color: #f2f2f2;
+  }
+  .section-two {
+    color: aliceblue;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .button {
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+    width: 40%;
+    height: 10px;
+    padding: 15px;
+    background-color: #6a1c9a;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .text-two {
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .section-two {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .section-two img {
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  .imagen-dos {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+  }
+
+  .button-two {
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+    width: 40%;
+    height: 10px;
+    padding: 15px;
+    background-color: #6a1c9a;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .text-tres {
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    animation: rotate 8s normal linear;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .imagen-dos {
+    animation: rotate 8s normal linear;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  
+}
+
+/* Pantallas de tablet a desktop */
+
+@media (min-width: 577px) and (max-width: 1600px) {
+  a {
+    text-decoration: none;
+
+    color: inherit;
+  }
+
+  .justified-text {
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .intro {
+    width: 100%;
+    color: #f2f2f2;
+  }
+  .section-two {
+    color: aliceblue;
+  }
+
+  .card {
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    margin: 20px;
+  }
+
+  .div-button {
+    display: flex;
+
+    justify-content: end;
+    text-align: center;
+    margin-right: 40px;
+  }
+
+  .button {
+    width: 40%;
+    height: 10px;
+    padding: 15px;
+    background-color: #6a1c9a;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .text-two {
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .section-two {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .section-two img {
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  .imagen-dos {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    width: 40%;
+  }
+
+  .button-two {
+    display: flex;
+    margin-left: 40px;
+    text-align: center;
+
+    width: 30%;
+    height: 10px;
+    padding: 15px;
+    background-color: #6a1c9a;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .text-tres {
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+
+
+
+  
+  
+
+  
+}
