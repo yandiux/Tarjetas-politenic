@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bloqueo/bloqueo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="card-form">
+        <h2>Bloqueo de Tarjeta</h2>
+        
+        <div class="form-group">
+          <label for="bloqueo">Bloqueo de Tarjeta</label>
+          <select id="bloqueo" name="bloqueo">
+            <option value="perdida">Perdida</option>
+            <option value="robo">Robo</option>
+            <option value="fraude">Fraude</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="razon">Razón del Bloqueo</label>
+          <input type="text" id="razon" name="razon">
+        </div>
+        
+        <div class="form-group">
+          <label for="numero">Número de Tarjeta</label>
+          <input type="text" id="numero" name="numero">
+        </div>
+        
+        <div class="form-group">
+          <label for="tipo">Tipo de Tarjeta</label>
+          <input type="text" id="tipo" name="tipo">
+        </div>
+        
+        <div class="form-group">
+          <label for="razones">Razones del Bloqueo</label>
+          <textarea id="razones" name="razones"></textarea>
+        </div>
+        
+        <button type="submit">Enviar Solicitud</button>
+    </form>
+    
+</body>
+</html>

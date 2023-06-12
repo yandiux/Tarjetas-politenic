@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/gradient-purple-abstract-background_23-2149108575.jpg?w=740&t=st=1686434993~exp=1686435593~hmac=5eef81dfeb15d35939e6008dc042e0edf6cda1135edcfc25720bbfd16c62c9d0");
+    color: #ffffff;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.card-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .card-form {
+    max-width: 100%;
+  }
+}
