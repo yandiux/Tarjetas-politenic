@@ -1,10 +1,19 @@
 body {
-    background-image: url("https://img.freepik.com/free-vector/gradient-purple-abstract-background_23-2149108575.jpg?w=740&t=st=1686434993~exp=1686435593~hmac=5eef81dfeb15d35939e6008dc042e0edf6cda1135edcfc25720bbfd16c62c9d0");
-    color: #ffffff;
-    background-size: cover;
-    font-family: 'Ubuntu', sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/gradient-purple-abstract-background_23-2149108575.jpg?w=740&t=st=1686434993~exp=1686435593~hmac=5eef81dfeb15d35939e6008dc042e0edf6cda1135edcfc25720bbfd16c62c9d0");
+  color: #ffffff;
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif;
 }
 
+.inicio {
+  color: inherit;
+  text-decoration: none;
+
+  text-align: center;
+}
+a {
+  color: aliceblue;
+}
 
 .card-form {
   max-width: 400px;
